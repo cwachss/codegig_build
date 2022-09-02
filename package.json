@@ -1,0 +1,25 @@
+{
+  "name": "codegig_build",
+  "version": "1.0.0",
+  "description": "simple job find app for coders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Chani Wachsstock",
+  "license": "MIT",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql2": "^2.3.3",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^4.44.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
